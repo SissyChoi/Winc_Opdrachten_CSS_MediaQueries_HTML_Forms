@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sis' Food Spots | About</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Hoi, ik ben Sissy</h1>
+    <p>Ik ben een foodie uit Rotterdam en ik ben 34 jaar.</p>
+
+    <img class= "img-photo" height="200" src="Sissy_PT.jpg">
+ 
+    <p>
+        <a href="index.html"> Klik hier</a> om terug te gaan naar de Homepage.
+    </p>
+    <p>Je kunt ook een kijkje nemen op mijn <a href="https://www.instagram.com/sisfoodspots/"
+            target="_blank">Instagram!</a></p>
+</body>
+
+</html>
