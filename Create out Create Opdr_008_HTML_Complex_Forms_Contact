@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sis' Food Spots | Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<header class="solid-border">
+    <nav>
+        <ul class="nav">
+            <li class="nav-display"> <a href="#">Thais</a> </li>
+            <li class="nav-display"> <a href="#">Italiaans</a> </li>    
+            <li class="nav-display"> <a href="#">Caribisch</a> </li>
+            <li class="nav-display"> <a href="#">Koreaans</a> </li>                    
+        </ul>   
+    </nav>
+</header>
+
+<hr>
+
+<main class="solid-border">
+<body>
+   
+    <p>Heb je vragen of wil je voor iets anders met me in contact komen? Vul dan onderstaand formulier in, en ik zal zo spoedig mogelijk reageren! 
+    </p>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <p>
+            <label>Voornaam: </label><input type="text" name="voornaam">
+            <label>Achternaam: </label><input type="text" name="achternaam">
+        </p>
+        <p>
+            <label>E-mail: </label><input type="email" name="email">
+            <label>Tel: </label><input type="tel" name="tel" maxlength="10">
+        </p>
+        <p>
+            <label>Leeftijd: </label><input type="number" name="leeftijd">
+        </p>
+        <p>
+            <label>Geboortedatum: </label><input type="date" name="geboortedatum">
+        </p>
+        <p>
+            <label>Geslacht:</label>
+            <input type="radio" name="geslacht-man"><label>man </label>
+            <input type="radio" name="geslacht-vrouw"><label>vrouw </label>
+            <input type="radio" name="geslacht-anders"><label>anders </label>
+        </p>
+        <p>
+            <label>Favoriete keuken:</label>
+            <input type="checkbox" name="keuken-thais"><label>Thais</label>
+            <input type="checkbox" name="keuken-italiaans"><label>Italiaans</label>
+            <input type="checkbox" name="keuken-caribisch"><label>Caribisch</label>
+            <input type="checkbox" name="keuken-koreaans"><label>Koreaans</label>
+        </p>
+        <p>
+            <label>Favoriete kleur schort:</label>
+            <input type="color" name="kleur-schort">
+        </p>
+
+        <p>
+            <textarea name="message" rows="10" cols="80">Schrijf hier je biografie...</textarea>
+        </p>
+        <p>
+            <label>Upload je laatste recept hier: </label> 
+        </p>
+        <p>
+            <input type="file" name="upload"> 
+        </p>
+        <p>
+            <label>Link naar recepten website: <input type="url" name="url"></label>
+        </p>
+        <p>
+            <input type="reset" value="Wis formulier">
+        </p>
+        <p>
+            <input type="submit" value="Verzend formulier">
+        </p>
+
+    </form> 
+    
+</body>
+</main>
+
+<hr>
+
+<footer class="solid-border">
+    <ul class="nav">
+        <li class="nav-display"> <a href="index.html">Home</a> </li>
+        <li class="nav-display"> <a href="about.html">Over mij</a> </li>
+        <li class="nav-display"> <a href="https://www.instagram.com/sisfoodspots/" target="_blank">Instagram</a> </li>
+        <li class="nav-display"> <a href="#">Contact</a></li>  
+    </ul>
+</footer>
+
+</html>
