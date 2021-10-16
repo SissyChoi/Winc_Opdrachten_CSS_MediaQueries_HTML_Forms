@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sis' Food Spots | About</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<header class="solid-border">
+    <nav>
+        <ul class="nav">
+            <li class="nav-display"> <a href="#">Thais</a> </li>
+            <li class="nav-display"> <a href="#">Italiaans</a> </li>    
+            <li class="nav-display"> <a href="#">Caribisch</a> </li>
+            <li class="nav-display"> <a href="#">Koreaans</a> </li>                    
+        </ul>   
+    </nav>
+</header>
+
+<hr>
+
+<main class="solid-border">
+<body>
+    <h1>Hoi, ik ben Sissy</h1>
+    <p>Ik ben een foodie uit Rotterdam en ik ben 34 jaar. 
+    </p>
+
+    <img class= "img-photo" height="200" src="Sissy_PT.jpg">
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel neque sed, quidem voluptate vero iste! Consequuntur ea earum, iste ullam officia deleniti eaque in repellendus. Accusamus dolorum fugit error exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel neque sed, quidem voluptate vero iste! Consequuntur ea earum, iste ullam officia deleniti eaque in repellendus. Accusamus dolorum fugit error exercitationem.
+    </p>
+</body>
+</main>
+
+<hr>
+
+<footer class="solid-border">
+    <ul class="nav">
+        <li class="nav-display"> <a href="about.html">Over mij</a> </li>
+        <li class="nav-display"> <a href="https://www.instagram.com/sisfoodspots/" target="_blank">Instagram</a> </li>
+        <li class="nav-display"> <a href="#">Contact</a></li>  
+    </ul>
+</footer>
+
+</html>
